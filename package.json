@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && webpack-dev-server --hot"
   },
+   "engines": {
+    "npm": ">8.9.0",
+    "node":"9.5.0"
+  },
   "author": "Anita Parikh",
   "license": "ISC",
   "dependencies": {
